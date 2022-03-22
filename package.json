@@ -1,0 +1,21 @@
+{
+  "name": "restro1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.17.3",
+    "msnodesqlv8": "^2.4.6",
+    "mssql": "^8.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "ngrok": "^4.3.1",
+    "sequelize": "^6.17.0"
+  }
+}
