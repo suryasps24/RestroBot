@@ -32,8 +32,6 @@ async function datadetails(specification, restroname){
     })
   })
 }
-
-
 module.exports = {databaseorder, datadetails }
 
 
@@ -164,17 +162,5 @@ module.exports = {databaseorder, datadetails }
 
 
 
-  
-// Database data 
-  /*
-// important -------
-
-CREATE TABLE `test1`.`new_table` (
-  `Restaurant_Name` VARCHAR(255) NOT NULL,
-  `Category` VARCHAR(255) NOT NULL,
-  `Pricing_for_2` VARCHAR(255) NOT NULL,
-  `Locality` VARCHAR(255) NOT NULL);
-
-  INSERT INTO `test`.`restro1` (`UnitId`, `Restaurant_Name`, `Category`, `Pricing_for_2`, `Locality`) VALUES ('2', 'Windmills Craftworks', 'Continental, Fast Food, Kebab, Beverages, Italian, Desserts', '2500', '  Windmills Craftworks, Bangalore');
-  SELECT * FROM test.restro1 where Restaurant_Name= 'Windmills Craftworks';
+ 
 */
